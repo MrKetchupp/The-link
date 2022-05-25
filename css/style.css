@@ -37,23 +37,22 @@ main {
 .card-info__perfil {
     height: 25vh;
     flex-basis: 90%;
-    margin: 0 auto;
+    margin: 20px auto;
     display: flex;
     align-items: center;
     flex-direction: column;
 }
 
 .card-info__foto {
-    width: 50%;
-    height: 60%;
-    margin-right:20px;
+    width: auto;
+    height: 70%;
     display: flex;
 }
 
 .card-info__foto-img {
     margin: auto;
     width: auto;
-    height: 80%;
+    height: 100%;
 }
 
 .card-info__titulo {
