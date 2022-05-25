@@ -83,6 +83,11 @@ main {
     transition: all .2s ease;
 }
 
+.card-info__caja:hover {
+    background-color: var(--marigold);
+    color: var(--english-violet);
+}
+
 .card-info__caja::before {
     transition: all 0.3s ease;
 }
@@ -147,7 +152,13 @@ main {
     justify-content: center;
     cursor:pointer;
     /* border: 2px var(--english-violet) solid; */
+    border: none;
     background-color: var(--english-violet);
+}
+
+.card-personaje__caja:hover {
+    background-color: var(--marigold);
+    color: var(--english-violet);
 }
 
 .card-personaje__avatar {
@@ -162,8 +173,7 @@ main {
 
 .card-personaje__nombre {
     font-size: 1.8rem;
-    color:  var(--marigold);
-    font-weight: 700;
+    font-weight: 500;
 }
 
 /* comienzo del estilo footer */
